@@ -3,7 +3,7 @@
 cài đặt python3.10
 
 cài môi trường ảo
- $ python3.10 -m venv venv
+ $ python -m venv venv
  $ source venv/bin/activate (macOS, linux)
         or 
     .\venv\Scripts\activate  (Windows)
@@ -13,7 +13,7 @@ cài môi trường ảo
 
 deactivate
 
-uvicorn main:app --reload
+uvicorn main:app --reload --port 8001
 Các bước:
 1. Tải data từ link dưới đây: 'https://physionet.org/content/circor-heart-sound/1.0.3/#files-panel' kéo xuống dưới cùng
 2. Giải nén các tệp vào thư mục heartsound2022
